@@ -63,7 +63,7 @@ const Navbar = ({setData,cart}) => {
             <div className="nav-bar-wrapper">
             <div 
             onClick={()=>setData(items)}
-            className="items">No Filter</div>
+            className="items">All</div>
             <div 
             onClick={()=>filterByCategory('iphone')}
              className="items">iphone</div>
